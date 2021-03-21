@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body {
+    position: relative; 
+    margin: 0;
+    padding: 0;
+  }
+  .navbar-brand{
+      color: rgb(112, 112, 241)!important;
+      font-size: 34px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-family: 'Lobster', cursive!important;
+  }
+  span{
+      color: rgb(56, 207, 212)!important ;
+  }
+  .logo{
+      margin-left: 16px;
+      width: 36px;
+      height: 36px;
+  }
+  .navbar{
+      background-color: white!important;
+      border-bottom: 2px  solid whitesmoke!important;
+      height: 60px!important;
+  }
+ .home{
+    color: rgb(112, 112, 241)!important;
+
+ }
+  .nav-link{
+    color: rgb(41, 41, 41)!important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(112, 112, 241)!important;
+
+}
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+   #section2, #section3, #section4{
+    padding-top:70px;
+    padding-bottom:10px
+  }
+  #section1{
+    padding-top:57px;
+    padding-bottom:10px 
+  }
+  .banner{
+    width: 100%;
+    height: 420px;
+  }
+  .navbar-toggler{
+      background-color: rgb(56, 207, 212)!important;
+  }
+  .para-1{
+    /* margin-right: 30px;
+    margin-left: 30px; */
+    color: #303030;
+    font-size: 14px;
+}
+.fruit{
+    height: 200px;
+    width: 100%;
+}
+h2{
+    color: rgb(112, 112, 241);
+}
+.blog{
+    text-align: center;
+   color: rgb(56, 207, 212)!important;
+   text-decoration: underline rgb(112, 112, 241) ;
+   font-family: 'Rubik', sans-serif;;
+font-size: 50px;
+padding-bottom: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+textarea{
+    margin-bottom: 20px;
+}
+.btn{
+    border: 2px solid rgb(112, 112, 241)!important;
+    color: rgb(112, 112, 241)!important;
+}
+.btn:hover{
+    background-color: rgb(112, 112, 241)!important;
+    color: white!important;
+}
+.fa-map-marker{
+    font-size: 20px!important;
+}
+.fa-mobile{
+    font-size: 24px!important;
+}
+.fa{
+    margin-right: 10px!important;
+    color: rgb(56, 207, 212)!important;
+}
+.fa-chevron-up{
+    color: rgb(112, 112, 241)!important;
+    font-size: 22px;
+}
+.footer-bold{
+    font-weight: bold;
+}

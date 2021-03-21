@@ -1,0 +1,161 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
+            <a class="navbar-brand"  href="./index.html">
+                <img class="logo" src="logo.jpg" alt="logo" />
+                Free<span>z</span>e</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+
+                </ul>
+                <span class="navbar-text">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#section1"><span class="home">HOME</span><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">CONTACT</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+        </nav>
+    </div>
+<div class="jumbotron-fluid" id="section1" >
+    <img class="banner" src="banner1.jpg"/>
+</div>
+<div class="container-fluid" id="section2" >
+    <div class="row">
+    <div class="col-sm-6">
+        <h2>The Twist of Healthy Friuts</h2>
+        <!-- <h2 class="h2 head2-2">OUR VALUES</h2> -->
+            <p class="para-2" > Our mission lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo
+                    consequat.</p>
+    </div> 
+        <div class="col-sm-6">
+            <img  class="fruit" src="fruit1.jpg" alt='fruit' />
+        </div>
+    <!---icon end-->
+ 
+</div>
+</div>
+<div class="container-fluid" id="section3" >
+    <h2 class="blog">BLOG</h2>
+    <div class="row">
+        <div class="col-sm-6">
+            <img  class="fruit" src="blog.jpg" alt='fruit' />
+        </div>
+        <div class="col-sm-6">
+            <h2>The Twist of Healthy Friuts</h2>
+            <!-- <h2 class="h2 head2-2">OUR VALUES</h2> -->
+                <p class="para-2" > Our mission lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo
+                        consequat.</p>
+        </div> 
+         
+        <!---icon end-->
+     
+    </div>
+    </div>
+
+</div>
+<div class="container-fluid" id="section4" >
+    <div class="container-fluid contact">
+        <h2 class="head2-7">CONTACT</h2>
+        <div class="row row1">
+          <div class="col-sm-5">
+            <p class="cont1" >Contact us and we'll get back to you within 24 hours.</p>
+            <p class="cont"><i class="fa fa-map-marker"></i>Karachi,Pakistan</p>
+            <p class="cont"><i class="fa fa-mobile"></i>+92 1515151515</p>
+            <p class="cont"><i class="fa fa-envelope"></i>madihaeman1@gmail.com</p>
+      
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="text"  class="form-control"  placeholder="Name">
+            </div>
+            <div class="col-sm-6">
+              <input type="email"  class="form-control"  placeholder="Email">
+               </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">    
+          <textarea class="form-control form2" id="exampleFormControlTextarea1" rows="4" placeholder="Comment"></textarea>
+      
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <button type="submit" class="btn btn-outline-primary">Send</button>
+        </div>
+        </div>
+        </div>
+          </div>
+        </div>
+</div>
+
+<footer class="container-fluid text-center" style="margin-top: 90px; ">
+    <a href="#top" title="To Top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <p>Made by <span class="footer-bold">Madiha Eman</span> copyright&copy;<span class="footer-bold">2021</span></p>
+  </footer>
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function(){
+      $('body').scrollspy({target: ".navbar", offset: 50});   
+    });
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
